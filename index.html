@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            30DaysOfScript:Inline Script
+            <script>
+                console.log('ilk internal')
+            </script>
+            <script src="helloworld.js"></script>
+            <script src="./introduction.js"></script> 
+            <!-- .aynı dizindesin demektir   .. olursa bir üst dizine çıkar-->
+        </title>
+    </head>
+    <body>
+        <button onclick="alert('Welcome')">Click Me</button>
+        <script src="./introduction.js"></script> 
+        <script>console.log('body içinde internal')</script>
+    </body>
+</html>
