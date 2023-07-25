@@ -22,3 +22,23 @@ const anonymus =  function(){
         'I am an anonmus'
     )
 }
+
+
+
+;(function(){
+    console.log('he yo')
+})()
+
+let sayHello2 = (function(name){
+    console.log('Hello ${name}')
+})('Dilara')
+
+//normal function
+function hello(name){
+    return 'hello ${name}'
+
+}
+
+//arrow function
+const hello2= name => 'hello ${name}'
+console.log(hello2('Ahmet'))
